@@ -21,6 +21,7 @@
 		3CC1C7A816D6BB96009A4CF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC1C78916D6BB95009A4CF0 /* Foundation.framework */; };
 		3CC1C7B016D6BB96009A4CF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CC1C7AE16D6BB96009A4CF0 /* InfoPlist.strings */; };
 		3CC1C7B316D6BB96009A4CF0 /* Feb21Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC1C7B216D6BB96009A4CF0 /* Feb21Tests.m */; };
+		3CC1C7BE16D6BE3A009A4CF0 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC1C7BD16D6BE3A009A4CF0 /* View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		3CC1C7AF16D6BB96009A4CF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3CC1C7B116D6BB96009A4CF0 /* Feb21Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Feb21Tests.h; sourceTree = "<group>"; };
 		3CC1C7B216D6BB96009A4CF0 /* Feb21Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Feb21Tests.m; sourceTree = "<group>"; };
+		3CC1C7BC16D6BE3A009A4CF0 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		3CC1C7BD16D6BE3A009A4CF0 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				3CC1C79616D6BB96009A4CF0 /* Feb21AppDelegate.h */,
 				3CC1C79716D6BB96009A4CF0 /* Feb21AppDelegate.m */,
 				3CC1C78E16D6BB95009A4CF0 /* Supporting Files */,
+				3CC1C7BC16D6BE3A009A4CF0 /* View.h */,
+				3CC1C7BD16D6BE3A009A4CF0 /* View.m */,
 			);
 			path = Feb21;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 			files = (
 				3CC1C79416D6BB96009A4CF0 /* main.m in Sources */,
 				3CC1C79816D6BB96009A4CF0 /* Feb21AppDelegate.m in Sources */,
+				3CC1C7BE16D6BE3A009A4CF0 /* View.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

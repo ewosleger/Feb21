@@ -7,16 +7,25 @@
 //
 
 #import "Feb21AppDelegate.h"
+#import "View.h"
 
 @implementation Feb21AppDelegate
+@synthesize window = _window;
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+- (BOOL) application: (UIApplication *) application didFinishLaunchingWithOptions: (NSDictionary *) launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    return YES;
+	// Override point for customization after application launch.
+	UIScreen *screen = [UIScreen mainScreen];
+	CGRect applicationFrame = screen.applicationFrame;
+	CGRect bounds = screen.bounds;
+    
+	view = [[View alloc] initWithFrame: applicationFrame];
+	self.window = [[UIWindow alloc] initWithFrame: bounds];
+    
+	//self.window.backgroundColor = [UIColor whiteColor];
+	[self.window addSubview: view];
+	[self.window makeKeyAndVisible];
+	return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
